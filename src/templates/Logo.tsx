@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import { AppConfig } from '../utils/AppConfig';
+import Image from 'next/image';
 
 type ILogoProps = {
   xl?: boolean;
