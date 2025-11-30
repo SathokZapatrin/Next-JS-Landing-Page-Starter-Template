@@ -12,11 +12,11 @@ const Hero = () => (
     {/* Навбар сверху */}
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
-        {/*<li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
+        <li>
+          <Link href="https://arey-rvp.vercel.app/">
             History
           </Link>
-        </li>
+          {/*</li>
         <li>
           <Link href="/">Sign in</Link>
         </li>*/}
