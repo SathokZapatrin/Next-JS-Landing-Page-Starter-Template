@@ -17,9 +17,9 @@ const Hero = () => (
             History
           </Link>
           </li>
-        {/*<li>
+        {/* <li>
           <Link href="/">Sign in</Link>
-        </li>*/}
+        </li> */}
       </NavbarTwoColumns>
     </Section>
 
@@ -35,7 +35,7 @@ const Hero = () => (
         description="Слава героям України!"
         button={
           <Link href="https://arey-rvp.vercel.app/">
-            <Button xl>HISTORY</Button>
+            <Button xl>History</Button>
           </Link>
         }
       />
