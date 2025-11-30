@@ -32,7 +32,7 @@ const Hero = () => (
             <span className="text-primary-500">РОТА ВОГНЕВОЙ ПІДТРИМКИ</span>
           </>
         }
-        // description="The easiest way to build a React landing page in seconds."
+        description="Слава героям України!"
         button={
           <Link href="https://arey-rvp.vercel.app/">
             <Button xl>HISTORY</Button>
