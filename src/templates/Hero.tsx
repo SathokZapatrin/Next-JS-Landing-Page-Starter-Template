@@ -16,8 +16,8 @@ const Hero = () => (
           <Link href="https://arey-rvp.vercel.app/">
             History
           </Link>
-          {/*</li>
-        <li>
+          </li>
+        {/*<li>
           <Link href="/">Sign in</Link>
         </li>*/}
       </NavbarTwoColumns>
