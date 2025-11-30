@@ -12,7 +12,7 @@ const Logo = (_props: ILogoProps) => {
         alt="Logo"
         width={64}
         height={64}
-      />
+        />
     </span>
   );
 };
