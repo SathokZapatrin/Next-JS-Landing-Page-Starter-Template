@@ -8,7 +8,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-[url('/hero-bg.png')] bg-cover bg-center">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
