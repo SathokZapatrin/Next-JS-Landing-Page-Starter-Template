@@ -13,9 +13,7 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://arey-rvp.vercel.app/">
-            History
-          </Link>
+          <Link href="https://arey-rvp.vercel.app/">History</Link>
           </li>
         {/* <li>
           <Link href="/">Sign in</Link>
