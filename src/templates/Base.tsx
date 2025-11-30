@@ -1,10 +1,10 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
-import { Banner } from './Banner';
+//import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
-import { Sponsors } from './Sponsors';
-import { VerticalFeatures } from './VerticalFeatures';
+//import { Sponsors } from './Sponsors';
+//import { VerticalFeatures } from './VerticalFeatures';
 
 const Base = () => (
   <div className="text-gray-600 antialiased">
@@ -12,8 +12,8 @@ const Base = () => (
     <Hero />
     {/* <Sponsors /> 
     <VerticalFeatures />
-    <Banner />
-    <Footer /> */}
+    <Banner /> */}
+    <Footer /> 
   </div>
 );
 
