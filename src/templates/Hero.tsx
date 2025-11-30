@@ -14,7 +14,7 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="https://arey-rvp.vercel.app/">History</Link>
-          </li>
+        </li>
         {/* <li>
           <Link href="/">Sign in</Link>
         </li> */}
