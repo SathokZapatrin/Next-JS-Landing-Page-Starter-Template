@@ -13,7 +13,7 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://arey-rvp.vercel.app/">History</Link>
+          <Link href="https://arey-rvp.vercel.app/"></Link>
         </li>
         {/* <li>
           <Link href="/">Sign in</Link>
@@ -26,14 +26,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'ШТУРМОВИЙ БАТАЛЬОН АРЕЙ\n'}
+            {'ШТУРМОВИЙ БАТАЛЬОН\n'}
+            <span className="text-primary-800">АРЕЙ</span>
             <span className="text-primary-500">РОТА ВОГНЕВОЙ ПІДТРИМКИ</span>
           </>
         }
         description="Слава героям України!"
         button={
           <Link href="https://arey-rvp.vercel.app/">
-            <Button xl>History</Button>
+            <Button xl>Дивитися далі</Button>
           </Link>
         }
       />
