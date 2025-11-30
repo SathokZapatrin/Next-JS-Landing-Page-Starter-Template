@@ -8,7 +8,8 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-[url('/hero-bg.png')] bg-cover bg-center">
+  <Background color="bg-[url('/hero-bg.png')] bg-cover bg-center min-h-screen flex flex-col">
+    {/* Навбар сверху */}
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
@@ -22,7 +23,8 @@ const Hero = () => (
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
+    {/* Центральный блок занимает всё оставшееся пространство */}
+    <Section yPadding="flex-1 flex items-center justify-center">
       <HeroOneButton
         title={
           <>
