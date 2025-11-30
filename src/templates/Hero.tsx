@@ -27,8 +27,8 @@ const Hero = () => (
         title={
           <>
             {'ШТУРМОВИЙ БАТАЛЬОН\n'}
-            <span className="text-primary-800">АРЕЙ</span>
-            <span className="text-primary-500">РОТА ВОГНЕВОЙ ПІДТРИМКИ</span>
+            <span className="text-primary-500 text-4xl font-bold">АРЕЙ\n</span>
+            {'РОТА ВОГНЕВОЙ ПІДТРИМКИ'}
           </>
         }
         description="Слава героям України!"
