@@ -26,8 +26,8 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'ОКРЕМИЙ ШТУРМОВИЙ БАТАЛЬОН\n'}
-            <span className="text-primary-500 text-16xl font-bold">АРЕЙ</span>
+            {'УКРАЇНСЬКА ДОБРОВОЛЬЧА АРМІЯ\n'}
+            <span className="text-primary-500 text-35xl font-bold">АРЕЙ</span>
             <br />
             {'РОТА ВОГНЕВОЙ ПІДТРИМКИ'}
           </>
