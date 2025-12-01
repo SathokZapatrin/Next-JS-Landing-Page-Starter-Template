@@ -27,7 +27,7 @@ const Hero = () => (
         title={
           <>
             {'УКРАЇНСЬКА ДОБРОВОЛЬЧА АРМІЯ\n'}
-            <span className="text-primary-500 text-35xl font-bold">АРЕЙ</span>
+            <span className="text-primary-500 text-16xl font-bold">АРЕЙ</span>
             <br />
             {'РОТА ВОГНЕВОЙ ПІДТРИМКИ'}
           </>
