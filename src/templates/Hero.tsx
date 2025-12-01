@@ -22,7 +22,7 @@ const Hero = () => (
     </Section>
 
     {/* Центральный блок занимает всё оставшееся пространство */}
-    <Section yPadding="flex-1 flex items-center justify-center">
+    <Section yPadding="py-2 flex-1 flex items-center justify-center">
       <HeroOneButton
         title={
           <>
