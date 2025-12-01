@@ -7,7 +7,7 @@ type ILogoProps = {
 const Logo = (_props: ILogoProps) => {
   return (
     <span className="inline-flex items-center">
-      <Image src="/I_arey_uda.png" alt="Logo" width={64} height={64} />
+      <Image src="/I_arey_uda.png" alt="Logo" width={150} height={150} />
     </span>
   );
 };
